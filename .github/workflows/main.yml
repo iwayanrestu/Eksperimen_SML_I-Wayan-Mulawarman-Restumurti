@@ -26,7 +26,7 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python automate_i_wayan_mulawarman_restumurti.py
+          python preprocessing/automate_i_wayan_mulawarman_restumurti.pyy
 
       - name: Upload preprocessing result
         uses: actions/upload-artifact@v4
